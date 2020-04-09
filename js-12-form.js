@@ -12,15 +12,18 @@ $(() => {
 
     $.ajax({
         url: `https://jsonplaceholder.typicode.com/posts/${postId}`,
-        method: 'get'
+        method: 'get',
+        headers: [
+            { Authorize: 'token' }
+        ]
     })
-        .done((resp) => {
-            post = resp;
-            refreshForm();
-        })
-        .fail((a, b, c) => {
-            console.warn(a, b, c);
-        });
+    .done((resp) => {
+        post = resp;
+        refreshForm();
+    })
+    .fail((a, b, c) => {
+        console.warn(a, b, c);
+    });
 });
 function refreshForm() {
     $('#txtId').val(post.id);
