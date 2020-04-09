@@ -1,5 +1,6 @@
-var h1 = document.getElementsByTagName('h1')[0];
+
 var p1 = document.getElementById('p1');
+var h1 = document.getElementsByTagName('h1')[0];
 var importanti = document.getElementsByClassName('importante');
 var pannello = document.getElementById('pannello');
 

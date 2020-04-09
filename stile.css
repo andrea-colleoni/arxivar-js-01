@@ -1,0 +1,24 @@
+/*
+per tag: TAG
+per classe: .CLASSE
+per id: #ID
+*/
+
+#btn, button {
+    background-color: bisque;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.importante {
+    font-weight: bold;
+    background-color: khaki;
+}
+
+p {
+    font-family: Verdana;
+    margin-left: 50px;
+}
