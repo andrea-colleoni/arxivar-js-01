@@ -1,0 +1,2 @@
+// commento
+messaggio(a); 
