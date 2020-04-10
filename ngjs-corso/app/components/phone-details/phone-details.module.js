@@ -1,1 +1,4 @@
-angular.module('phoneDetails', ['ngRoute']);
+angular.module('phoneDetails', [
+    'ngRoute',
+    'core.phone',
+]);
